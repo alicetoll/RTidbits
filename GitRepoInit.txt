@@ -1,0 +1,18 @@
+# First time connecting to github
+
+https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+
+# Create new repository on github
+	# no readme
+	# no gitignore
+	# can add later
+	
+# In terminal, navigate to project directory
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin remote <URL>
+git remote -v
+git push origin master
+	
